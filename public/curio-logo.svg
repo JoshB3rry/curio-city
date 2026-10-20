@@ -1,0 +1,20 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.curio-s { stroke: #1F4D3B; }
+.curio-f { fill: #1F4D3B; }
+@media (prefers-color-scheme: dark) {
+.curio-s { stroke: #8FE0B2; }
+.curio-f { fill: #8FE0B2; }
+}
+</style>
+<clipPath id="curio-lens-clip"><circle cx="50" cy="48" r="23"/></clipPath>
+<circle cx="50" cy="48" r="30" class="curio-s" stroke-width="7"/>
+<line x1="70" y1="68" x2="94" y2="92" class="curio-s" stroke-width="9" stroke-linecap="round"/>
+<g clip-path="url(#curio-lens-clip)" class="curio-f">
+<rect x="33" y="54" width="10" height="16" rx="1"/>
+<rect x="45" y="42" width="12" height="28" rx="1"/>
+<rect x="59" y="58" width="9" height="12" rx="1"/>
+<rect x="31" y="69" width="40" height="4" rx="2"/>
+<path d="M51 26 L52.8 32.2 L59 34 L52.8 35.8 L51 42 L49.2 35.8 L43 34 L49.2 32.2 Z"/>
+</g>
+</svg>
